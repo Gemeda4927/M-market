@@ -1,0 +1,10 @@
+.container {
+    margin-top: 120px;
+    
+}
+.container .row ul{
+    list-style: none;
+}
+.container .row ul li{
+    padding: 10px;
+}

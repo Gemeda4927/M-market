@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    display: none;
+}
+#header {
+    background: green;
+}
+#head{
+      display: flex;
+      background: green;
+      margin: 0 auto;
+      position: fixed;
+      top: 0;
+      
+  }
+  .btn-outline-success{
+    background: #ffa500;
+    color: #fff;
+  }
+  #navbarCollapse a:hover, 
+  #navbarCollapse a:active {
+    color: #ffa500;
+  }

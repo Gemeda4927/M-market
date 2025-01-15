@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.mainClass.shopemain {
+    margin-top: 100px;
+}
+
+.mainClass.shopemain h1 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: ebrima;
+}
+
+.mainClass.shopemain ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100wh;
+    /* max-width: 100%; */
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mainClass.shopemain .jacketsell {
+    padding: 20px;
+    text-align: center;
+    margin: 3px;
+    border: 3px solid rgb(43, 38, 38);
+}
+
+.mainClass.shopemain .jacketsell img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.container.shopemain .jacketsell button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(88, 89, 90);
+    font-family: monospace;
+    font-weight: bold;
+    background-color: rgb(56, 255, 56);
+}
+
+@media (min-width: 768px) {
+    .container.shopemain .jacketsell img {
+        max-width: 130px;
+    }
+}

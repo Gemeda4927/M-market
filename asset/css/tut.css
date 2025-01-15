@@ -1,0 +1,64 @@
+#Logo-1{
+    width: 80px;
+    height: 100px;
+    margin: 0px;
+}
+main{
+    margin-top: 20vh;
+}
+
+#nav-two-bar{
+    background-color: rgb(94, 94, 202);
+    border-radius: 10px;
+    height: 100px;
+    color: #fff;
+    border: 3px solid rgb(213, 198, 198);
+    margin: 5%;
+    width: 90%;
+}
+#nav-heading{
+    border-right: 3px solid #fff;
+    width: 60px;
+    margin: 15px;
+}
+#nav-two-bar ul li{
+    
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+#nav-two-bar ul li a{
+    text-decoration: none;
+}
+.me-nav-link {
+    color: rgba(255, 255, 255, 0.302);
+}
+.link{
+    color: #fff;
+}
+#nav-two-bar ul li a:hover{
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    #head #head1{
+      border-right: 3px solid #fff;
+      padding-right: 15px;
+  }
+  #nav-heading{
+    float: left;
+    width: 120px;
+}
+
+#nav-two-bar ul{
+      text-align: right;
+      padding: 20px;
+  }
+  #nav-two-bar{
+    font-size: 30px;
+}
+
+  }
+  
